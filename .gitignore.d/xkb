@@ -1,0 +1,9 @@
+*
+!/.gitignore.d
+!/.gitignore.d/xkb
+!/.xkb
+!/.xkb/keymap
+!/.xkb/keymap/default
+!/.xkb/symbols
+!/.xkb/symbols/capslock
+!/.xkb/symbols/modmap

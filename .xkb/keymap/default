@@ -1,0 +1,14 @@
+// setxkbmap -layout 'us' -variant 'altgr-intl'
+// -option -option 'caps:swapescape' -print
+
+default xkb_keymap "default" {
+    xkb_keycodes  { include "evdev+aliases(qwerty)" };
+    xkb_types     { include "complete" };
+    xkb_compat    { include "complete" };
+    xkb_symbols   {
+        include "pc+us(altgr-intl)+inet(evdev)"
+        include "capslock(swapescape)"
+        // include "capslock(capsescape)"
+        include "modmap(menu)"
+    };
+};

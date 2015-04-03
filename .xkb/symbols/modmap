@@ -1,0 +1,9 @@
+// partial hidden modifier_keys
+// xkb_symbols "mod1" {
+    // modifier_map Mod1 { Menu };
+// };
+
+// partial hidden modifier_keys
+xkb_symbols "menu" {
+    modifier_map Mod3 { Menu };
+};
